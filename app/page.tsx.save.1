@@ -1,0 +1,56 @@
+'use client';
+
+import React from 'react';
+
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-[#0a0a0f] text-white overflow-hidden">
+      {/* Debug Mode Banner - we'll remove this soon */}
+      <div className="bg-yellow-500/10 border-b border-yellow-500/30 text-yellow-400 text-xs py-2 text-center font-mono">
+        DEBUG MODE — Work in Progress
+      </div>
+
+      <main className="max-w-4xl mx-auto px-6 py-12 flex flex-col items-center text-center">
+        <h1 className="text-6xl md:text-7xl font-bold mb-6 tracking-tight">
+          🐸 SOLANA ORACLE PROPHET
+        </h1>
+
+        <div className="mb-12">
+          <img
+            src="/prophet-pepe.jpg"
+            alt="Solana Oracle Prophet"
+            className="rounded-2xl shadow-2xl shadow-purple-600/50 max-w-md w-full"
+          />
+        </div>
+
+        <p className="text-2xl md:text-3xl mb-12 max-w-2xl">
+          Ask the Prophet anything about Solana...
+        </p>
+
+        <button className="bg-gradient-to-r from-purple-600 via-violet-600 to-cyan-500 hover:brightness-110 transition-all duration-300 text-2xl font-bold px-14 py-6 rounded-2xl shadow-xl shadow-purple-500/50 hover:scale-105 active:scale-95">
+          🔮 CONSULT THE PROPHET
+        </button>
+
+        <div className="mt-20 w-full max-w-2xl">
+          <h2 className="text-3xl font-bold mb-6">🔮 Psychology of a Market Cycle</h2>
+          <div className="bg-zinc-900/70 border border-purple-500/30 rounded-3xl p-10 text-left text-gray-300">
+            The Prophet sees the hidden patterns of fear, greed, and euphoria...
+          </div>
+        </div>
+      </main>
+
+      {/* Restored Disclaimer (optional - you can remove if you want clean version) */}
+      <footer className="mt-24 py-12 border-t border-purple-500/20 bg-black/50 text-center text-xs text-gray-400 leading-relaxed">
+        <div className="max-w-2xl mx-auto px-6">
+          ⚠️ <strong>This is NOT financial advice.</strong><br />
+          The Prophet’s prophecies are for <strong>entertainment purposes only</strong>.<br />
+          <strong>Answers are not random</strong> — they are generated using real-time market data from:<br />
+          • <strong>Pyth Network oracles</strong> — primary real-time price feeds<br />
+          • <strong>Birdeye.so</strong> &amp; <strong>DEX Screener</strong> — on-chain analytics<br />
+          • Solana blockchain on-chain data<br /><br />
+          Always do your own research (DYOR). Crypto involves high risk.
+        </div>
+      </footer>
+    </div>
+  );
+}

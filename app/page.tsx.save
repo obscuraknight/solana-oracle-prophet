@@ -1,0 +1,13 @@
+      {/* === DISCLAIMER FOOTER === */}
+      <footer className="mt-20 py-8 border-t border-purple-500/20 text-center text-xs text-gray-400">
+        <div className="max-w-2xl mx-auto px-6">
+          ⚠️ <strong>This is NOT financial advice.</strong><br />
+          The Prophet’s prophecies are for <strong>entertainment purposes only</strong>.<br />
+          <strong>Answers are not random</strong> — they are generated using real-time data from:<br />
+          • Pyth Network (price oracles)<br />
+          • Solana blockchain on-chain data<br />
+          • Market analytics from Birdeye &amp; DEX Screener<br /><br />
+          Always do your own research (DYOR). Cryptocurrency investments involve high risk.
+        </div>
+      </footer>;
+
